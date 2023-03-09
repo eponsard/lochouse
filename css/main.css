@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600&display=swap');
+
+:root {
+    --primary: #fff;
+    --secondary: #88bce4;
+    --tertiare: #d6ecfe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--tertiare);
+    font-family: 'Signika', sans-serif;
+}
+
+header {
+    background: var(--secondary);
+    box-shadow: 0 2px 8px grey;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background: var(--secondary);
+    box-shadow: 0 -2px 10px grey;
+    padding: 1em; 
+}
+
+i {
+    color : #0d6efd;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+.separator {
+    width: 45%;
+    color: #ca655a;
+    padding-bottom: 1.5em;
+}
+
+.sous-titre {
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+}
+
+/***************** NAV *******************/
+.logo {
+    width: 5em;
+}
+
+.navbar-nav a {
+    color: var(--primary);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.btn-outline-success {
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/***************** HEADER *******************/
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+    color: var(--primary);
+}
+
+/***************** CAROUSEL *****************/
+.carousel-inner {
+    border-radius: 8px;
+}
+
+/***************** CARDS *******************/
+
+.perles-rare {
+    padding-top: 2em;
+}
+
+.card {
+    margin-bottom: 2em;
+    box-shadow: 0 2px 10px var(--tertiare);
+    background: #e4f0fc;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+/****************** DETAILS ********************/
+
+.presentation i {
+    font-size: 3em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.presentation p {
+    text-align: justify;
+}
+
+/******************* FOOTER ********************/
+
+.general {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
